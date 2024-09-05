@@ -6,7 +6,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 
 <template>
   <section class="py-8 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+    <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About BlockchainInsight</h2>
     <!-- Accordion -->
     <div class="space-y-3">
       <!-- Accordion item -->
@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       terms: [
-        { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-        { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-        { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-        { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false }
+        { title: "What is BlockchainInsight?", description: "BlockchainInsight is an innovative app designed to help users discover and explore new blockchain information. It provides real-time updates, analysis, and insights into various blockchain networks, projects, and cryptocurrencies.", expanded: false },
+        { title: "How does BlockchainInsight find new blockchain information?", description: "Our app uses advanced algorithms and data aggregation techniques to scan multiple sources, including blockchain networks, news outlets, social media, and developer forums. This ensures you always have access to the latest and most relevant blockchain information.", expanded: false },
+        { title: "What types of blockchain information can I find using this app?", description: "BlockchainInsight covers a wide range of blockchain-related information, including new project launches, technological advancements, market trends, regulatory updates, and emerging use cases across various industries.", expanded: false },
+        { title: "Is BlockchainInsight suitable for both beginners and experienced blockchain enthusiasts?", description: "Absolutely! Our app is designed to cater to users of all experience levels. Beginners can use it to learn about blockchain basics and stay informed, while experienced users can leverage its advanced features for deep analysis and research.", expanded: false }
       ]
     };
   },
